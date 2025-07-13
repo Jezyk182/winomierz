@@ -98,8 +98,7 @@ const Glowna = () => {
         />
         <p className="mt-2">
             {wynik.isFinite && wynik.isPositive && `Należy wlać ${wynik.ilosc} litry alkoholu.`}
-            {!wynik.isPositive && `Należy wlać ${wynik.ilosc} litrów wody.`}
-            
+            {!wynik.isPositive && `Należy wlać ${wynik.ilosc} wody.`}            
         </p>
       </div>
     </div>
